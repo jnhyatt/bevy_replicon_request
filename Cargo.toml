@@ -1,0 +1,11 @@
+[package]
+name = "bevy_replicon_request"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy_app = "0.13"
+bevy_ecs = "0.13"
+bevy_mod_async = "0.6"
+bevy_replicon = "0.26"
+serde = "1"
