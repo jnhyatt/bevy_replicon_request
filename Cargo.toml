@@ -9,3 +9,11 @@ bevy_ecs = "0.13"
 bevy_mod_async = "0.6"
 bevy_replicon = "0.26"
 serde = "1"
+
+[dev-dependencies]
+bevy = { version = "0.13", default-features = false }
+bevy_replicon_renet = "0.3"
+clap = "4"
+
+[[example]]
+name = "hello_world"
